@@ -1,0 +1,86 @@
+* {
+    box-sizing: border-box
+}
+body {
+    margin: 0;
+    padding: 0;
+}
+a:link, a:visited {
+    text-decoration: none;
+    color: white;
+}
+.login {
+    box-sizing: border-box;
+    background-color: #09499d;
+    margin-bottom: 0px;
+}
+.container {
+    box-sizing: border-box;
+    background-color: #022656;
+    margin-top: 0 auto;
+    height: 100px;
+}
+.logo{
+    font-size: 30px;
+    float:left;
+    vertical-align: middle;
+    margin-right: 30px;
+}
+.barsetting {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+.barsetting li {
+    margin-top: 40px;
+}
+.head {
+    position: relative;
+    height: 600px;
+}
+
+.head::before{
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("./ai활용법.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no repeat;
+}
+.searchbar{
+    height: 80px;
+    background-color: #edc825;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 5px;
+}
+.search .searchtext{
+    color: #b0afaf;
+    position: absolute;
+    text-align: left;
+    background-color: white;
+    width: 600px;
+    margin: 18px;
+    padding: 15px;
+    font-size: 13px;
+    border-radius: 5px;
+}
+ul.searching > li{
+    float: left;
+    margin-right: 25px;
+    font-size:18px;
+    font-weight:bold;
+}
+.searching{
+    list-style-type: none;
+    float: right;
+    margin-top: 15px;
+}
